@@ -40,11 +40,11 @@ static u64 desiredfps = core_desiredfps;
 static float desiredspf = 65536.0f / core_desiredfps;
 static int desiredFpsScalerIndex = GetPrivateProfileInt("Video","FPS Scaler Index", 5, IniName);
 static u64 desiredFpsScalers [] = {
-	1024,
-	512, // 200%
-	448, // 175%
-	384, // 150%
-	320, // 125%
+	310, // 121%
+	300, // 117%
+	290, // 113%
+	280, // 109%
+	270, // 105%
 	256, // 100%
 	192,
 	128, // 50%
